@@ -1,5 +1,6 @@
 .DS_Store
 playlist_urls.json
+.playlist_videos_urls.json
 playlists/
 
 # Byte-compiled / optimized / DLL files
