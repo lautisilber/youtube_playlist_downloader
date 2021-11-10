@@ -1,3 +1,7 @@
+'''
+	created by Lautaro Silbergleit on 2021
+'''
+
 import re
 from pytube import Playlist, YouTube
 import sys
