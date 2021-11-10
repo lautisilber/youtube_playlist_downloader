@@ -32,7 +32,7 @@ def main():
 	for playlist_url in playlist_urls:
 		playlist = Playlist(playlist_url)
 		playlist._video_regex = re.compile(r"\"url\":\"(/watch\?v=[\w-]*)")
-		print(f"\n downloading playlist: '{playlist.title}")
+		print(f"\n downloading playlist: '{playlist.title}'")
 
 		path = join(PLAYLIST_DOWNLOAD_PATH, playlist.title)
 		if not exists(path):
