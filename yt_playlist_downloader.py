@@ -69,7 +69,7 @@ def main():
 		all_videos = [v for v in all_files if v.endswith('.mp4')]
 		if len(all_videos) == len(saved_urls[playlist_name]): # if target video count matches video count, return
 			print('All files were allready downloaded')
-			return
+			continue
 		removed_last = False
 		if all_videos: # if at least one video was downloaded, delete last
 			for obj in reversed(saved_urls[playlist_name]):
